@@ -9,5 +9,6 @@ it('renders a welcome message when signed out', async () => {
     </MemoryRouter>
   );
 
-  await screen.findByRole('list', { name: 'book list' });
+  await screen.findByText('Library Catalog');
 });
+
