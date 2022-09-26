@@ -40,5 +40,5 @@ function App() {
     </main>
   );
 }
-
+// netlify fix
 export default App;
