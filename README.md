@@ -35,8 +35,10 @@ Take a look through the `components` directory to find the existing pages. Each 
 
 | Task                                              | Points |
 | ------------------------------------------------- | ------ |
-| `/books` route                                    | 3      |
-| `/books/:id` route                                | 3      |
-| `BookDetails` gets the `id` from the URL path     | 2      |
-| Book titles from list view `Link` to book details | 1      |
-| "Back to Catalog" `Link` added to `BookDetails`   | 1      |
+| `/books` route           done                         | 3      |
+| `/books/:id` route       done                         | 3      |
+| `BookDetails` gets the `id` from the URL path    done | 2      |
+| Book titles from list view `Link` to book details  done| 1      |
+| "Back to Catalog" `Link` added to `BookDetails`   done| 1      |
+
+
