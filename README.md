@@ -40,3 +40,5 @@ Take a look through the `components` directory to find the existing pages. Each 
 | `BookDetails` gets the `id` from the URL path     | 2      |
 | Book titles from list view `Link` to book details | 1      |
 | "Back to Catalog" `Link` added to `BookDetails`   | 1      |
+
+
