@@ -2,6 +2,7 @@ import BookList from './components/book/BookList';
 import './App.css';
 import { Link, Route, Switch } from 'react-router-dom';
 import BookDetail from './components/book/BookDetail';
+import Book from './components/book/Book';
 
 
 function App() {
@@ -10,15 +11,17 @@ function App() {
     <main className="container">
       <h1>Library Catalog</h1>
       <Switch>
+
        
+        <Route path="/books/:id">
+          <BookDetail/>
+        </Route>
+
         <Route path="/books">
           <Link to='/'>go to home!</Link>
           <BookList />
         </Route>
-          
-        <Route path="/BookDetail">
-          <BookDetail/>
-        </Route>
+
         
 
         <Route path="/">
